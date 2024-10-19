@@ -128,7 +128,7 @@ export default function LandingPage() {
                         handcrafted flavors since 1999! We take pride in using the freshest 
                         local ingredients to create delightful treats that bring smiles 
                         to all ages. Swing by to enjoy a scoop (or two!) and experience the 
-                        sweet memories we've been making for over two decades!
+                        sweet memories we&apos;ve been making for over two decades!
                     </div>
                     <h1 className="
                         text-5xl 
