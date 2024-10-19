@@ -4,8 +4,8 @@ import "./globals.scss";
 
 
 export const metadata: Metadata = {
-  title: "Store front",
-  description: "Little store front project to test out shadcn and tailwind",
+  title: "Local Creamery",
+  description: "Little example store front project to test out shadcn and tailwind",
 };
 
 export default function RootLayout({
