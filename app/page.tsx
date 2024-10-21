@@ -75,6 +75,7 @@ export default function LandingPage() {
             </div>
             <div 
                 className={`
+                    md:land:overflow-y-scroll
                     md:w-1/3
                     w-full
                     md:h-full
