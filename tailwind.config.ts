@@ -49,7 +49,11 @@ const config: Config = {
 					'3': 'hsl(var(--chart-3))',
 					'4': 'hsl(var(--chart-4))',
 					'5': 'hsl(var(--chart-5))'
-				}
+				},
+				customPink: "#F1ACA6",
+				customPinkDark: "#A76F6C",
+				customPinkOff: "#FADED8",
+				customBlue: "#A0B1D5"
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

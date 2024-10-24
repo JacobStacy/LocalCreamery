@@ -1,6 +1,7 @@
 import Image from "next/image";
-import { hennyPenny } from "./ui/fonts";
-import { cormorant } from "./ui/fonts";
+import { hennyPenny } from "@/app/ui/fonts";
+import { cormorant } from "@/app/ui/fonts";
+// import Link from "next/link";
 
 export default function LandingPage() {
     return (
@@ -14,8 +15,8 @@ export default function LandingPage() {
                 md:flex-row 
                 overflow-y-scroll
                 md:overflow-y-hidden
+                bg-customDarkPink
             "
-            style={{backgroundColor: "#A76F6C"}}
         >
             <div className={`
                 md:w-2/3
@@ -86,9 +87,9 @@ export default function LandingPage() {
                     flex-col
                     justify-between
                     drop-shadow-xl
+                    bg-customPink
                     ${cormorant.className}
                 `}
-                style={{backgroundColor: "#F1ACA6"}}
             >
                 <div>
                     <Image
@@ -171,6 +172,31 @@ export default function LandingPage() {
                             <div>12pm - 12am</div> {/* Saturday */}
                             <div>3pm - 12am</div> {/* Sunday */}
                         </div>
+                    </div>
+                    <div
+                        className="
+                            flex
+                            justify-center
+                            items-center
+                        "
+                    >
+                        {/* <Link
+                            href={"/menu"}
+                            className="
+                                text-customPink
+                                w-auto
+                                bg-white
+                                w-wrap
+                                h-10
+                                mx-auto
+                                rounded-xl
+                                text-4xl
+                                mt-5
+                                px-3
+                            "
+                        >
+                            Our Menu
+                        </Link> */}
                     </div>
                 </div>
 
